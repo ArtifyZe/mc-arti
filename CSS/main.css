@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(44, 44, 44);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#footer {
+    background-color: rgb(80, 80, 80);
+    border-top-style: ridge;
+    border-color: gray;
+    height: 75px;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 0px;
+}
+
+.scroll-header {
+    background-color: rgb(80, 80, 80);
+    border-bottom-style: ridge;
+    border-color: gray;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.text-menu {
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-size: 25px;
+    color: white;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.text-menu:hover {
+    color: aqua;
+}
+
+.button-menu {
+    float: right;
+    position: relative;
+    top: 33%;
+    right: 50px;
+    color: white;
+    font-size: 24px;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.button-menu:hover {
+    color: aqua;
+}
+
+.button-menu-now {
+    color: aqua;
+}
+
+.footer {
+    color: white;
+    font-size: 20px;
+}
+
+.footer-button {
+    color: white;
+    transition-duration: 0.7s;
+}
+
+.footer-button:hover {
+    color: aqua;
+}
